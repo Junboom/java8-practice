@@ -9,6 +9,16 @@ public enum DownloadState2 {
     ENABLE_DOWNLOAD("다운로드 가능"),
     EXCEEDED("다운로드 횟수 초과");
 
+    /*
+
+    1. function
+    2. Supplier
+    3. Consumer
+    4. Predicate -> boolean
+    5. Operator
+
+     */
+
     private String description;
     private static final EnumSet<DownloadState2> DOWNLOADABLE_STATUS = EnumSet.of(CREATED, ENABLE_DOWNLOAD);
 
